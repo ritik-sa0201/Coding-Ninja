@@ -1,0 +1,9 @@
+.about {
+    box-shadow: 0 0px 50px #f38d1d;
+}
+
+.heading {
+    background: linear-gradient(92.92deg, #f38d1d 26.53%, #0d0d0d 104.11%);
+    background-clip: text;
+    font-family: "Montserrat";
+}

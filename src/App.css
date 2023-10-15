@@ -1,3 +1,11 @@
+*{
+  scroll-behavior:smooth;
+}
+
+body {
+  background-color: black;
+}
+
 .App {
   text-align: center;
 }
@@ -11,6 +19,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .App-header {
@@ -32,6 +44,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
