@@ -51,6 +51,13 @@ function Landing() {
                             positive impact on the society.
                         </p>
                     </div>
+                    <div className="hidden xl:block pl-20 pr-0">
+                        <img
+                        loading="lazy"
+                        src={"https://files.codingninjas.in/pl-ninja-16706.svg"}
+                        className="md:w-2/3 ml-10 pb-5 pt-20"
+                        alt="" />
+                    </div>
                 </div>
             </div>
         </>
