@@ -7,8 +7,4 @@ export const board = [
     name: "Md. Ehtisham",
     position: "Co-Lead",
   },
-  {
-    name: "Priyanshi Sharma",
-    position: "Club Representative",
-  },
 ];

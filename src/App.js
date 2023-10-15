@@ -1,28 +1,28 @@
-import { useEffect, useState, lazy } from "react";
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
-import { motion } from "framer-motion";
+// import { useEffect, useState, lazy } from "react";
+// import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+// import { motion } from "framer-motion";
 // import lottyimg from "./Components/Landing/assets/land_lazy.json";
 // import teamlottyimg from "./Components/Landing/assets/team_lazy.json";
-import { Suspense } from "react";
+// import { Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import TeamNew from "./Components/Team/TeamNew"
 // import Events from "./Components/Events/Events";
-import Footer from "./Components/Footer/Footer";
+// import Footer from "./Components/Footer/Footer";
 // import Landing from "./Components/Landing/Landing";
 import Navbar from "./Components/Navbar/Navbar";
 import Landing from "./Components/Landing/Landing";
 import Events from "./Components/Events/Events";
-const LazyLanding = lazy(() => import("./Components/Landing/Landing"));
+// const LazyLanding = lazy(() => import("./Components/Landing/Landing"));
 
 function App() {
-  const [loading, setLoading] = useState(false);
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 2500);
-  }, []);
+  // const [loading, setLoading] = useState(false);
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 2500);
+  // }, []);
 
   return (
       <Routes>
@@ -94,10 +94,10 @@ function App() {
 
 export default App;
 
-const Apply = () => {
-  useEffect(() => {
-    window.location.href = "https://codingninjasatsrm.com/domains";
-  }, []);
+// const Apply = () => {
+//   useEffect(() => {
+//     window.location.href = "https://codingninjasatsrm.com/domains";
+//   }, []);
 
-  return <></>;
-};
+//   return <></>;
+// };

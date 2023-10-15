@@ -9,15 +9,7 @@ import 'swiper/css/navigation';
 import './styles.css';
 import "swiper/css/autoplay";
 
-const image1 = "/logo512.png";
-const image2 = "/logo512.png";
-const image3 = "/logo512.png";
-const image4 = "/logo512.png";
-const image5 = "/logo512.png";
-
-const slides = [image1, image2, image3, image4, image5];
-
-export const Tiles = () => {
+export const Tiles = ({slides}) => {
     return (
         <Swiper
         pagination={{

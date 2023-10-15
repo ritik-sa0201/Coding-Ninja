@@ -14,7 +14,7 @@ const CardComponent = ({ name, position, img }) => {
       data-aos-duration="1000"
       data-aos-easing="linear"
     >
-      <div className=" w-75 h-110 bg-gray-1000 flex justify-center rounded-xl p-8 shadow-[0_0_4px_2px_rgba(255,165,0,0.5)]">
+      <div className=" w-75 h-110 bg-gray-900 flex justify-center rounded-xl p-8 shadow-[0_0_4px_2px_rgba(17 24 39,0.5)]">
         <img
           loading="lazy"
           src={img}

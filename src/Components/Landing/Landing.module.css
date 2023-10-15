@@ -1,23 +1,48 @@
 main {
-    height: 100%;
-    width: 100%;
-  
-    top: 0;
-    left: 0;
-    z-index: -3;
-  }
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -3;
+}
 
-  .about {
-    box-shadow: 0 10px 50px #f38d1d;
-  }
-  
-  .heading {
-    background: linear-gradient(#f38d1d 26.53%, #0d0d0d 104.11%);
-    background-clip: text;
-    font-family: "Montserrat";
-  }
-  
-  #landing {
-    margin-top: 13vh;
-  }
-  
+.heading {
+  background-clip: text;
+  /* font-family: "Montserrat"; */
+}
+
+#landing {
+  margin-top: 13vh;
+}
+
+.anime {
+  height: 80svh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.lottie {
+  width: min(70vw, 50vh);
+}
+
+.events {
+  /* cursor: pointer; */
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  color: white;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.arro {
+  transition: all 300ms;
+}
+
+.events:hover .arro {
+  scale: 1.2;
+  margin-left: 1vw;
+}

@@ -1,17 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Scroll from "react-scroll";
+// import { Link } from "react-router-dom";
+// import Scroll from "react-scroll";
 // import style from './Footer.module.css'
 // import { div } from 'react-router-dom'
 
 function Footer() {
-  const goToAbout = async () => {
-    var scroller = Scroll.scroller;
-    await new Promise((r) => setTimeout(r, 500));
-    scroller.scrollTo("about", { smooth: true, offset: -80, duration: 200 });
-  };
+  // const goToAbout = async () => {
+  //   var scroller = Scroll.scroller;
+  //   await new Promise((r) => setTimeout(r, 500));
+  //   scroller.scrollTo("about", { smooth: true, offset: -80, duration: 200 });
+  // };
   return (
-    <footer className="dark:bg-opacity-60 backdrop-blur-lg backdrop-filter bg-neutral-900 dark:bg-neutral-900 w-screen">
+    <footer className="dark:bg-opacity-60 backdrop-blur-lg backdrop-filter bg-black  w-screen">
       <div className="flex items-center justify-center flex-col gap-5 py-8 px-5 ">
         {/* Social media handles */}
         <div className="block md:hidden">
@@ -21,7 +21,7 @@ function Footer() {
           <div className="flex md:space-x-4 space-x-3 justify-center md:justify-center md:mt-0">
             <a
               href="https://www.facebook.com/codingninjasSRM/"
-              className="text-[#f38d1d] hover:text-white"
+              className="text-gray-200 hover:text-white"
             >
               <svg
                 className="md:w-8 md:h-8 w-6 h-6"
@@ -39,7 +39,7 @@ function Footer() {
             </a>
             <a
               href="https://medium.com/@cnsrm"
-              className="text-[#f38d1d] hover:text-white"
+              className="text-gray-200 hover:text-white"
             >
              <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ function Footer() {
             </a>
             <a
               href="https://mobile.twitter.com/ninjassrm"
-              className="text-[#f38d1d] hover:text-white"
+              className="text-gray-200 hover:text-white"
             >
               <svg
                 className="md:w-8 md:h-8 w-6 h-6"
@@ -68,7 +68,7 @@ function Footer() {
             </a>
             <a
               href="https://in.linkedin.com/company/coding-ninjas-club-srm"
-              className="text-[#f38d1d] hover:text-white"
+              className="text-gray-200 hover:text-white"
             >
               <svg
                 fill="currentColor"
@@ -87,7 +87,7 @@ function Footer() {
           <div className="hidden md:flex md:space-x-4 space-x-3 justify-center md:justify-center md:mt-0">
             <a
               href="https://www.facebook.com/codingninjasSRM/"
-              className="text-[#f38d1d] hover:text-white"
+              className="text-gray-200 hover:text-white"
             >
               <svg
                 className="md:w-8 md:h-8 w-6 h-6"
@@ -105,7 +105,7 @@ function Footer() {
             </a>
             <a
               href="https://medium.com/@cnsrm"
-              className="text-[#f38d1d] hover:text-white"
+              className="text-gray-200 hover:text-white"
             >
              <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +120,7 @@ function Footer() {
             </a>
             <a
               href="https://mobile.twitter.com/ninjassrm"
-              className="text-[#f38d1d] hover:text-white"
+              className="text-gray-200 hover:text-white"
             >
               <svg
                 className="md:w-8 md:h-8 w-6 h-6"
@@ -134,7 +134,7 @@ function Footer() {
             </a>
             <a
               href="https://in.linkedin.com/company/coding-ninjas-club-srm"
-              className="text-[#f38d1d] hover:text-white"
+              className="text-gray-200 hover:text-white"
             >
               <svg
                 fill="currentColor"
