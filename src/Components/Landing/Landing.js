@@ -13,10 +13,10 @@ function Landing() {
     const aboutInView = useInView(aboutRef);
     return (
         <>
-            <div id="top" className="h-screen w-full -z-10 top-0 relative">
+            <div id="top" className={"h-screen w-full -z-10 top-0 relative "+style.bottom}>
                 <ParticleBGLanding />
             </div>
-            <main className="absolute pt-[13vh] z-10">
+            <main className={"absolute pt-[13vh] z-10 "+style.bottom}>
                 <div className={style.anime}>
                     <DotLottie className={style.lottie} src="/ninja.lottie" />
                     <Link className={style.events+" bg-gray-800"} to="/events">OUR UPCOMMING EVENTS <FaArrowRight className={style.arro} /> </Link>
