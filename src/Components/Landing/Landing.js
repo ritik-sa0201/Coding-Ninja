@@ -13,7 +13,7 @@ function Landing() {
     const aboutInView = useInView(aboutRef);
     return (
         <>
-            <div id="top" className={"h-screen w-full -z-10 top-0 relative "+style.bottom}>
+            <div id="top" className={"h-[90vh] w-full -z-10 top-0 relative "+style.bottom}>
                 <ParticleBGLanding />
             </div>
             <main className={"absolute pt-[13vh] z-10 "+style.bottom}>

@@ -12,7 +12,7 @@ function Navbar() {
     }
 
     function goToTop() {
-      window.scrollTo({
+        document.getElementById("root").scrollTo({
         top: 0,
         behavior: "smooth",
       });

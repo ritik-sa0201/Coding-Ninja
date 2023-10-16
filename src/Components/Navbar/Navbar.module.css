@@ -1,12 +1,12 @@
 .nav {
-    position: fixed;
+    position: sticky;
     top: 0;
     height: 10vh;
     width: 100vw;
     background-color: rgb(17 24 39);
     color: rgb(255, 255, 255);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.458);
-    z-index: 100;
+    z-index: 10;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +14,7 @@
 
 .logo{
     padding: 3vh 0;
-    height: 10vh;
+    height: fit-content;
     object-fit: cover;
     display: flex;
     padding-left: 3vh;
@@ -33,6 +33,7 @@
     border-radius: 5px;
     width: 100vw;
     overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 .open{
     animation: dropdown_animation 0.3s forwards;
@@ -42,11 +43,12 @@
 }
 .dropdown a{
     display: flex;
-    align-items: center;
     box-sizing: border-box;
     list-style: none;
     color: rgb(255, 255, 255);
     margin: 2px;
+    height: 10vh;
+    padding: 2vh;
 }
 .span:hover{
     color: #f38d1d;
@@ -54,7 +56,6 @@
 .span {
     margin: auto;
     font-size: 4vh;
-    height: 10vh;
 }
 .right{
     padding-right: 2vw;
@@ -83,13 +84,13 @@
         height: 0px;
     }
     100%{
-        height: 31vh;
+        height: 32vh;
     }
 }
 
 @keyframes dropdown_animation_close{
     0%{
-        height: 31vh;
+        height: 32vh;
     }
     100%{
         height: 0px;

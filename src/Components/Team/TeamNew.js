@@ -5,7 +5,7 @@ import { board } from "./board";
 function TeamNew() {
 
   return (
-    <div className="flex flex-col justify-center items-center mt-5 w-screen h-auto gap-y-10">
+    <div className="flex flex-col justify-center items-center w-screen h-auto gap-y-10">
 
       <div className={"pt-16 text-[40px] md:text-[60px] font-[700] teamheading"}>
         Our Team

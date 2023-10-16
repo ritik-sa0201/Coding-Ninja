@@ -12,10 +12,13 @@
   align-items: center;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 90svh;
+.slides {
+  z-index: -1;
+  position: absolute;
+}
+
+.imgMain {
   object-fit: cover;
-  /* border-radius: min(4vw, 4vh); */
+  width: 100%;
+  height: min(90svh, 60vw);
 }

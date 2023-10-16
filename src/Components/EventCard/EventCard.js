@@ -4,8 +4,8 @@ export default function EventCard({src}) {
     return (
             <div class="my-[5vh] flex flex-col w-full bg-gray-800 rounded shadow-lg sm:w-3/4 md:w-1/2 lg:w-3/5">
                 <div
-                    class="w-full h-64 bg-top bg-cover rounded-t"
-                    style={{backgroundImage: `url(${src})`, backgroundPosition: "center"}}
+                    class="h-[min(50vh,50vw)] bg-top bg-cover rounded-t"
+                    style={{backgroundImage:`url(${src})`, backgroundPosition: "center"}}
                 ></div>
                 <div class="flex flex-col w-full md:flex-row">
                     <div class="flex flex-row justify-around p-4 font-bold leading-none text-gray-200 uppercase bg-gray-700 rounded md:flex-col md:items-center md:justify-center md:w-1/4">

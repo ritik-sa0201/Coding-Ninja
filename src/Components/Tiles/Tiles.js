@@ -17,7 +17,6 @@ export const Tiles = ({slides}) => {
         }}
         navigation={true}
         modules={[Pagination, Navigation, Autoplay]}
-        className="mySwiper"
         loop={true}
         speed={1000}
         autoplay={{
@@ -26,7 +25,7 @@ export const Tiles = ({slides}) => {
         }}
       >
             {slides.map((slide) => (
-                <SwiperSlide className="slides">
+                <SwiperSlide>
                     <img src={slide} className="imgMain" />
                 </SwiperSlide>
             ))}
