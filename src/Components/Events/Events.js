@@ -3,6 +3,7 @@ import style from "./Events.module.css"
 import { DecoderText } from "../DecoderText/DecoderText";
 import { Tiles } from "../Tiles/Tiles";
 import EventCard from "../EventCard/EventCard";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const image1 = "https://pbs.twimg.com/media/F3PioN_WoAA9Qdj?format=jpg&name=medium";
 const image2 = "https://pbs.twimg.com/media/EuCnGnLVEAMShfA?format=jpg&name=medium";
@@ -14,37 +15,46 @@ const slides = [image1, image2, image3, image4, image5];
 
 export default function Events() {
     return (
-        <div>
+        <div id="top">
             
             <Tiles slides={slides} />
 
             <div class="mx-auto bg-gray-900 flex flex-col items-center justify-center px-8 pb-[20vh]">
 
-            <div id="events">
-                <div
-                    className={`md:text-7xl text-5xl text-transparent bg-clip-text text-center font-extrabold md:mb-10 mb-5 pb-2 md:pt-20 mt-10 ${style.heading}`}
+                <div id="events">
+                    <div
+                        className={`md:text-7xl text-5xl text-transparent bg-clip-text text-center font-extrabold md:mb-10 mb-5 pb-2 md:pt-20 mt-10 ${style.heading}`}
+                    >
+                        <DecoderText
+                            text="EVENTS"
+                            start={true}
+                        />
+                    </div>
+                    
+                </div>
+
+                <div className="pb-5">
+                    <div className="text-white text-center md:text-xl">
+                        Stay tuned new Events loading...
+                    </div>
+                    <div className="absolute right-0 bg-black">
+                        <img loading="lazy" alt="" />
+                    </div>
+                </div>
+
+                <Swiper
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    // navigation={true}
+                    // pagination={true}
+                    // modules={[Navigation, Pagination]}
+                    className="mySwiper"
                 >
-                    <DecoderText
-                        text="EVENTS"
-                        start={true}
-                    />
-                </div>
-                
+                    <SwiperSlide>{slides.map((slide, i) => <EventCard id={i} src={slide} />)}</SwiperSlide>
+                    <SwiperSlide>{slides.map((slide, i) => <EventCard id={i+6} src={slide} />)}</SwiperSlide>
+                </Swiper>
+
             </div>
-
-            <div className="pb-5">
-                <div className="text-white text-center md:text-xl">
-                    Stay tuned new Events loading...
-                </div>
-                <div className="absolute right-0 bg-black">
-                    <img loading="lazy" alt="" />
-                </div>
-            </div>
-
-            
-            {slides.map(slide => <EventCard src={slide} />)}
-
-        </div>
 
         </div>
     );

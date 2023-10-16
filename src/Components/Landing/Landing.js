@@ -31,24 +31,12 @@ function Landing() {
                             ref={aboutRef}
                         >
                             <DecoderText
-                                text="ABOUT CN"
+                                text="CN IIIT-BBSR"
                                 start={aboutInView}
                             />
                         </div>
                         <p className="text-gray-300 xl:text-left text-center mx-2 md:pl-5 md:ml-7 pl-3 pr-3 md:text-2xl text-1 md:pb-20 mb-10 tracking-wider leading-7">
-                            Welcome to Coding Ninjas Club SRM! We are a
-                            community of passionate coders and executives who
-                            love to explore the world of technology and push our
-                            limits to create innovative solutions. Our club is
-                            designed to provide a platform for students to
-                            learn, share, and grow their technical skills.We
-                            organize a variety of events throughout the year,
-                            from Hackathons and Workshops to amazing Gaming
-                            Events.At Coding Ninjas Club SRM, we believe that
-                            technology can be a force for good in the
-                            world.That's why we encourage our members to use
-                            their skills to solve real-world problems and make a
-                            positive impact on the society.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi laudantium doloribus eligendi alias aut deserunt, id autem asperiores accusantium facilis magnam ipsum, quae, ex eos fugit cum dicta voluptas cumque? Eveniet minima corporis, recusandae accusamus placeat impedit veritatis repudiandae obcaecati rem alias earum voluptates perferendis qui quia ipsa tenetur tempore harum iusto porro dignissimos! Dolore libero totam minima debitis laudantium ipsum doloribus perspiciatis, reprehenderit, porro sit molestias magnam quae repellendus doloremque velit veniam repudiandae voluptatum quasi laborum distinctio nihil mollitia?
                         </p>
                     </div>
                     <div className="hidden xl:block pl-20 pr-0">

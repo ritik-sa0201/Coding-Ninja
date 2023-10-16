@@ -10,11 +10,10 @@ const CardComponent = ({ name, position, img }) => {
   return (
     <div
       className="text-white flex flex-col items-center justify-center gap-1 mx-6"
-      data-aos="zoom-in-down"
+      data-aos="zoom-in-up"
       data-aos-duration="500"
-      data-aos-easing="linear"
     >
-      <div className=" w-75 h-110 bg-gray-900 flex justify-center rounded-xl p-8 shadow-[0_0_4px_2px_rgba(17 24 39,0.5)]">
+      <div className=" w-[min(80vw,35vh)] h-[min(100vw,41vh)] bg-gray-900 flex justify-center rounded-xl p-8 shadow-[0_0_4px_2px_rgba(17 24 39,0.5)]">
         <img
           loading="lazy"
           src={img}

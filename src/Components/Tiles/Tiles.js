@@ -1,15 +1,17 @@
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./styles.css";
-
-
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import './styles.css';
 import "swiper/css/autoplay";
 
 export const Tiles = ({slides}) => {
+    function goToTop(id) {
+        const elementToScrollTo = document.getElementById(id);
+        const container = document.getElementById('root');
+        container.scrollTop = elementToScrollTo.offsetTop;
+    };
     return (
         <Swiper
         pagination={{
@@ -24,9 +26,9 @@ export const Tiles = ({slides}) => {
             disableOnInteraction: false,
         }}
       >
-            {slides.map((slide) => (
+            {slides.map((slide, i) => (
                 <SwiperSlide>
-                    <img src={slide} className="imgMain" />
+                    <img onClick={()=>goToTop("event"+i)} src={slide} className="imgMain" />
                 </SwiperSlide>
             ))}
         </Swiper>
