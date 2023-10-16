@@ -10,7 +10,7 @@ export const Tiles = ({slides}) => {
     function goToTop(id) {
         const elementToScrollTo = document.getElementById(id);
         const container = document.getElementById('root');
-        container.scrollTop = elementToScrollTo.offsetTop;
+        container.scrollTop = elementToScrollTo.offsetTop - container.offsetTop + (elementToScrollTo.offsetHeight/2);
     };
     return (
         <Swiper
