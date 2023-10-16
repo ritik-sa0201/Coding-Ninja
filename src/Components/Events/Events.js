@@ -15,15 +15,16 @@ const slides = [image1, image2, image3, image4, image5];
 
 export default function Events() {
     return (
-        <div id="top">
-            
-            <Tiles slides={slides} />
+        <>
+            <div>
+                <Tiles slides={slides} />
+            </div>
 
             <div class="mx-auto bg-gray-900 flex flex-col items-center justify-center px-8 pb-[20vh]">
 
                 <div id="events">
                     <div
-                        className={`md:text-7xl text-5xl text-transparent bg-clip-text text-center font-extrabold md:mb-10 mb-5 pb-2 md:pt-20 mt-10 ${style.heading}`}
+                        className={`md:text-7xl text-5xl text-white bg-clip-text text-center font-extrabold md:mb-10 mb-5 pb-2 md:pt-20 mt-10 ${style.heading}`}
                     >
                         <DecoderText
                             text="EVENTS"
@@ -56,6 +57,6 @@ export default function Events() {
 
             </div>
 
-        </div>
+        </>
     );
 }

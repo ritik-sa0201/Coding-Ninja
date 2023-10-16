@@ -22,7 +22,7 @@ function Navbar() {
         <>
             <div className={styles.nav}>
 
-                <div className={styles.logo}><img src="https://files.codingninjas.com/new-cn-logos-31142.svg" alt="logo" /><span className="mx-2">IIIT-BBSR</span></div>
+                <div className={styles.logo}><img src="https://files.codingninjas.com/new-cn-logos-31142.svg" alt="logo" /><span className="ml-3 text-xl">IIIT-BBSR</span></div>
 
                 <div className={styles.right}>
 

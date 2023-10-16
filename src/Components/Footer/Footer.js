@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 function Footer() {
     return (
     <footer class="bg-black">
-      <div class="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
-        <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+      <div class="mx-auto px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
+        <div class="grid grid-cols-1 mx-auto max-w-screen-xl gap-8 lg:grid-cols-3">
           <div>
             <div
               class="flex justify-center sm:justify-start"
@@ -254,7 +254,7 @@ function Footer() {
           </div>
         </div>
     
-        <div class="mt-12 border-t border-gray-100 pt-6 dark:border-gray-800">
+        <div class="mt-12 max-w-screen-xl mx-auto border-t border-gray-100 pt-6 dark:border-gray-800">
           <div class="text-center sm:flex sm:justify-between sm:text-left">
             <p class="text-sm text-gray-500 dark:text-gray-400">
               <span class="block sm:inline">All rights reserved.</span>

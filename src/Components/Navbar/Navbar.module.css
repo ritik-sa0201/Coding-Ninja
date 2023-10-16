@@ -13,11 +13,19 @@
 }
 
 .logo{
-    padding: 3vh 0;
-    height: fit-content;
-    object-fit: cover;
+    /* padding: 3vh 0; */
     display: flex;
-    padding-left: 3vh;
+    align-items: center;
+    margin-left: 3vh;
+    overflow: hidden;
+    height: 10vh;
+}
+
+.logo img {
+    height: 50%;
+    object-fit: cover;
+    object-position: left;
+    aspect-ratio: 1/1;
 }
 
 .dropdown{
