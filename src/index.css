@@ -9,6 +9,10 @@
   background-clip: text;
 }
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

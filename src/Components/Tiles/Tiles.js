@@ -6,24 +6,19 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
 
-export const Tiles = ({slides}) => {
+export const Tiles = ({ slides }) => {
     return (
         <Swiper
-        pagination={{
-          type: "bullets",
-        }}
-        navigation={true}
-        modules={[Pagination, Navigation, Autoplay]}
-        loop={true}
-        speed={1000}
-        autoplay={{
-            delay: 3000,
-            disableOnInteraction: false,
-        }}
-      >
+            pagination = {{ type: "bullets" }}
+            navigation = { true }
+            modules    = {[ Pagination, Navigation, Autoplay ]}
+            loop       = { true }
+            speed      = { 1000 }
+            autoplay   = {{ disableOnInteraction: false }}
+        >
             {slides.map((slide, i) => (
-                <SwiperSlide>
-                    <a href={`${document.location.origin}/events/#event${i}`}><img src={slide} className="imgMain" /></a>
+                <SwiperSlide key={i}>
+                    <img src={slide} className="imgMain" alt="" />
                 </SwiperSlide>
             ))}
         </Swiper>

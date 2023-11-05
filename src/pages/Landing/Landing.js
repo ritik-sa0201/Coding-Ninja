@@ -1,10 +1,9 @@
-import { motion,useInView } from "framer-motion";
+import { useInView } from "framer-motion";
 import React, {useRef} from "react";
-import ParticleBGLanding from "../ParticleBG/ParticleBGLanding";
-// import "react-multi-carousel/lib/styles.css";
-import {DecoderText} from "../DecoderText/DecoderText";
+import ParticleBG from "../../Components/ParticleBG/ParticleBG";
+import {DecoderText} from "../../Components/DecoderText/DecoderText";
 import style from "./Landing.module.css";
-import DotLottie from "../DotLottie/DotLottie";
+import DotLottie from "../../Components/DotLottie/DotLottie";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa"
 
@@ -14,7 +13,7 @@ function Landing() {
     return (
         <>
             <div id="top" className={"h-[90vh] w-full -z-10 top-0 relative "+style.bottom}>
-                <ParticleBGLanding />
+                <ParticleBG />
             </div>
             <main className={"absolute pt-[13vh] z-10 "+style.bottom}>
                 <div className={style.anime}>
@@ -39,10 +38,10 @@ function Landing() {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi laudantium doloribus eligendi alias aut deserunt, id autem asperiores accusantium facilis magnam ipsum, quae, ex eos fugit cum dicta voluptas cumque? Eveniet minima corporis, recusandae accusamus placeat impedit veritatis repudiandae obcaecati rem alias earum voluptates perferendis qui quia ipsa tenetur tempore harum iusto porro dignissimos! Dolore libero totam minima debitis laudantium ipsum doloribus perspiciatis, reprehenderit, porro sit molestias magnam quae repellendus doloremque velit veniam repudiandae voluptatum quasi laborum distinctio nihil mollitia?
                         </p>
                     </div>
-                    <div className="hidden xl:block pl-20 pr-0">
+                    <div className="hidden xl:flex pl-20 pr-0 items-center justify-center">
                         <img
                         loading="lazy"
-                        src={"https://files.codingninjas.in/pl-ninja-16706.svg"}
+                        src="https://files.codingninjas.in/pl-ninja-16706.svg"
                         className="md:w-2/3 ml-10 pb-5 pt-20"
                         alt="" />
                     </div>

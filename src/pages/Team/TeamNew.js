@@ -1,4 +1,4 @@
-import { DecoderText } from "../DecoderText/DecoderText";
+import { DecoderText } from "../../Components/DecoderText/DecoderText";
 import CardComponent from "./CardComponent";
 import { board } from "./board";
 

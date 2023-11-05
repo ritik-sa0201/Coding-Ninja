@@ -3,10 +3,10 @@
     top: 0;
     height: 10vh;
     width: 100vw;
-    background-color: rgb(17 24 39);
+    background-color: rgb(31 41 55);
     color: rgb(255, 255, 255);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.458);
-    z-index: 10;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,13 +35,13 @@
     top: 9vh;
     right: 0px;
     z-index: 1;
-    background-color: rgb(17 24 39);
+    background-color: rgb(31 41 55);
     color: rgb(255, 255, 255);
     backdrop-filter: blur(5vw);
     border-radius: 5px;
     width: 100vw;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); */
 }
 .open{
     animation: dropdown_animation 0.3s forwards;
@@ -77,9 +77,9 @@
     width: 10vh;
 }
 .backdrop {
-    height: 100svh;
+    height: 100vh;
     width: 100vw;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
 }
