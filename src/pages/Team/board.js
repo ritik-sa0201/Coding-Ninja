@@ -45,7 +45,7 @@ export const board = [
     image: "/assets/Partha.jpg"
   },
   {
-    name: "Prriya Dash",
+    name: "Priya Dash",
     position: "Social Media & Content Co-lead",
     image: "/assets/Priya.jpg"
   },
