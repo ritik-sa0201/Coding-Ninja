@@ -20,19 +20,9 @@ export const board = [
     image: "/assets/Anirudh.jpg"
   },
   {
-    name: "Hitasha Padhi",
-    position: "Social Media head",
-    image: "/assets/Hitasha.jpg"
-  },
-  {
-    name: "Arushi Mahapatra",
-    position: "Design head",
-    image: "/assets/Arushi.jpeg"
-  },
-  {
-    name: "Bedasnata Das",
-    position: "Marketing Co-lead",
-    image: "/assets/Bedasnata.jpg"
+    name: "Partha Sarathi Mohanty",
+    position: "Events Co-lead",
+    image: "/assets/Partha.jpg"
   },
   {
     name: "Shikha Singh",
@@ -40,9 +30,19 @@ export const board = [
     image: "/assets/ShikhaSingh.jpg"
   },
   {
-    name: "Partha Sarathi Mohanty",
-    position: "Events Co-lead",
-    image: "/assets/Partha.jpg"
+    name: "Bedasnata Das",
+    position: "Marketing Co-lead",
+    image: "/assets/Bedasnata.jpg"
+  },
+  {
+    name: "Arushi Mahapatra",
+    position: "Design head",
+    image: "/assets/Arushi.jpeg"
+  },
+  {
+    name: "Hitasha Padhi",
+    position: "Social Media head",
+    image: "/assets/Hitasha.jpg"
   },
   {
     name: "Priya Dash",

@@ -34,8 +34,8 @@ function Landing() {
                                 start={aboutInView}
                             />
                         </div>
-                        <p className="text-gray-300 xl:text-left text-center mx-2 md:pl-5 md:ml-7 pl-3 pr-3 md:text-2xl text-1 md:pb-20 mb-10 tracking-wider leading-7">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi laudantium doloribus eligendi alias aut deserunt, id autem asperiores accusantium facilis magnam ipsum, quae, ex eos fugit cum dicta voluptas cumque? Eveniet minima corporis, recusandae accusamus placeat impedit veritatis repudiandae obcaecati rem alias earum voluptates perferendis qui quia ipsa tenetur tempore harum iusto porro dignissimos! Dolore libero totam minima debitis laudantium ipsum doloribus perspiciatis, reprehenderit, porro sit molestias magnam quae repellendus doloremque velit veniam repudiandae voluptatum quasi laborum distinctio nihil mollitia?
+                        <p className="text-gray-300 text-justify mx-2 md:pl-5 md:ml-7 pl-3 pr-3 md:text-2xl text-1 md:pb-20 mb-10 tracking-wider leading-7">
+                            Welcome to Coding Ninja @IIIT BBSR!!Coding is not just about algorithms and syntax; it goes beyond that, becoming a form of artistic expression. Coding Ninja Students Chapter offers coding workshops and hackathons for students to enhance their skills and learn from industry experts. These events serve as platforms to explore new technologies, solve real-world problems, and showcase talents. By pushing the boundaries of innovation, students bring their unique ideas to life in the digital landscape. Join us on this journey of exploration!
                         </p>
                     </div>
                     <div className="hidden xl:flex pl-20 pr-0 items-center justify-center">
