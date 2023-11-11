@@ -10,10 +10,15 @@ export const board = [
     image: "/assets/Nikhil.jpg"
   },
   {
-    name: "Rajesh Kumar Jena ",
+    name: "Rajesh Kumar Jena",
     position: "Technical head",
     image: "/assets/Rajesh.jpg"
   },
+  // {
+  //   name: "Brijendra Singh",
+  //   position: "Technical Co-Lead",
+  //   image: "/assets/Brijendra.jpg"
+  // },
   {
     name: "Anirudh Pradhan",
     position: "Events head",
