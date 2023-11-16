@@ -27,9 +27,9 @@ export default function EventCard({link, image, date, month, time, venu, title, 
                         <pre className="leading-normal whitespace-pre-wrap text-justify">
                             {description}
                         </pre>
-                        <div className="flex items-center justify-end mt-4 text-gray-300">
+                        {link && <div className="flex items-center justify-end mt-4 text-gray-300">
                             <a target="_blank" href={link} className="h-11 rounded w-26 py-2 px-5 bg-gray-100 duration-200 hover:bg-gray-300 text-gray-900 font-bold ">Register</a>                            
-                        </div>
+                        </div>}
                     </div>
                 </div>
             </div>

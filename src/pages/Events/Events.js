@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import style from "./Events.module.css"
 import { DecoderText } from "../../Components/DecoderText/DecoderText";
 import { Tiles } from "../../Components/Tiles/Tiles";
 import EventCard from "../../Components/EventCard/EventCard";
@@ -18,9 +17,9 @@ export default function Events() {
     }
     return (
         <>
-            {/* <div>
-                <Tiles slides={slides} />
-            </div> */}
+            {upcommingEvents && <div>
+                <Tiles slides={upcommingEvents} />
+            </div>}
 
             <div class="mx-auto flex flex-col items-center justify-center bg-gray-900 px-0 pb-[20vh]">
 

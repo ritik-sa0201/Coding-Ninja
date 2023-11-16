@@ -20,21 +20,21 @@ const Footer = () => (
                     <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
                         <li>
                             <a
-                                href="/"
+                                href="https://www.linkedin.com/company/coding-ninjas-sc-iiit-bbsr/"
                                 rel="noreferrer"
                                 target="_blank"
                                 className="text-gray-300 transition hover:text-gray-100"
                             >
-                                <span className="sr-only">Facebook</span>
+                                <span className="sr-only">Linkedin</span>
                                 <svg
                                     className="h-6 w-6"
                                     fill="currentColor"
-                                    viewBox="0 0 24 24"
+                                    viewBox="0 0 50 50"
                                     aria-hidden="true"
                                 >
                                     <path
                                         fillRule="evenodd"
-                                        d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                        d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"
                                         clipRule="evenodd"
                                     />
                                 </svg>
@@ -43,7 +43,7 @@ const Footer = () => (
 
                         <li>
                             <a
-                                href="/"
+                                href="https://www.instagram.com/coding_ninjas_iiitbh/"
                                 rel="noreferrer"
                                 target="_blank"
                                 className="text-gray-300 transition hover:text-gray-100"
@@ -64,7 +64,7 @@ const Footer = () => (
                             </a>
                         </li>
 
-                        <li>
+                        {/* <li>
                             <a
                                 href="/"
                                 rel="noreferrer"
@@ -104,7 +104,7 @@ const Footer = () => (
                                     />
                                 </svg>
                             </a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
 
@@ -136,15 +136,6 @@ const Footer = () => (
                             <li>
                                 <Link
                                     className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                                    to="/events"
-                                >
-                                    Past Events
-                                </Link>
-                            </li>
-
-                            <li>
-                                <Link
-                                    className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                                     to="/team"
                                 >
                                     Our Team
@@ -159,7 +150,7 @@ const Footer = () => (
                         </p>
 
                         <ul className="mt-8 space-y-4 text-sm">
-                            <li>
+                            {/* <li>
                                 <a
                                     className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
                                     href="/"
@@ -183,7 +174,7 @@ const Footer = () => (
                                         john@doe.com
                                     </span>
                                 </a>
-                            </li>
+                            </li> */}
 
                             <li>
                                 <a
@@ -206,7 +197,7 @@ const Footer = () => (
                                     </svg>
 
                                     <span className="flex-1 text-gray-700 dark:text-gray-300">
-                                        0123456789
+                                        91988 51103
                                     </span>
                                 </a>
                             </li>

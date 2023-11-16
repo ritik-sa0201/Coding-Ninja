@@ -16,9 +16,9 @@ export const Tiles = ({ slides }) => {
             speed      = { 1000 }
             autoplay   = {{ disableOnInteraction: false }}
         >
-            {slides.map((slide, i) => (
+            {slides.map(({image}, i) => (
                 <SwiperSlide key={i}>
-                    <img src={slide} className="imgMain" alt="" />
+                    <img src={image} className="imgMain" alt="" />
                 </SwiperSlide>
             ))}
         </Swiper>

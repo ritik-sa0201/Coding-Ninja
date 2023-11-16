@@ -2,7 +2,7 @@ export const board = [
   {
     name: "Md. Ehtisham",
     position: "Lead",
-    image: "/assets/Ehtisham.jpg"
+    image: "/assets/Ehtisham.jpeg"
   },
   {
     name: "Nikhil Rajput",
