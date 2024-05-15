@@ -15,7 +15,7 @@
       word-wrap: normal;
     } */
   }
-.hidden[data-hidden="true"],
+/* .hidden[data-hidden="true"],
 [data-show-on-focus="true"]:not(:focus){
   border: 0;
   clip: rect(0 0 0 0);
@@ -27,4 +27,4 @@
   position: absolute;
   white-space: nowrap;
   word-wrap: normal;
-}
+} */

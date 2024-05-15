@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { active } from "../../pages/Events/Events";
+import { scrollToTop } from "../..";
 
 const Footer = () => (
     <footer className="bg-black">
@@ -119,6 +121,7 @@ const Footer = () => (
                                 <Link
                                     className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                                     to="/"
+                                    onClick={scrollToTop.value}
                                 >
                                     Home
                                 </Link>
@@ -128,6 +131,7 @@ const Footer = () => (
                                 <Link
                                     className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                                     to="/events"
+                                    onClick={()=>{active.value = false; scrollToTop.value()}}
                                 >
                                     Upcomming Events
                                 </Link>
@@ -136,7 +140,18 @@ const Footer = () => (
                             <li>
                                 <Link
                                     className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                                    to="/events"
+                                    onClick={()=>{active.value = true; scrollToTop.value()}}
+                                >
+                                    Past Events
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link
+                                    className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                                     to="/team"
+                                    onClick={scrollToTop.value}
                                 >
                                     Our Team
                                 </Link>

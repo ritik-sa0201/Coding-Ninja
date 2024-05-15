@@ -8,7 +8,7 @@ const glyphs = [
   'カ', 'キ', 'ク', 'ケ', 'コ',
   'サ', 'シ', 'ス', 'セ', 'ソ',
   'タ', 'チ', 'ツ', 'テ', 'ト',
-  'ナ', 'ニ', 'ヌ', 'ネ', 'ノ',
+  'ナ', 'ニ', 'ヌ', 'ネ',
   'ハ', 'ヒ', 'フ', 'ヘ', 'ホ',
   'マ', 'ミ', 'ム', 'メ', 'モ',
   'ヤ', 'ユ', 'ヨ', 'ー',
@@ -59,7 +59,7 @@ const VisuallyHidden = forwardRef(
       visible,
       ...rest
     },
-    ref,
+    ref
   ) => {
     return (
       <Component
@@ -72,7 +72,7 @@ const VisuallyHidden = forwardRef(
         {children}
       </Component>
     );
-  },
+  }
 );
 export const DecoderText = memo(
   ({ text, start = true, delay: startDelay = 0, className, ...rest }) => {
@@ -127,5 +127,5 @@ export const DecoderText = memo(
         <span aria-hidden className={styles.content} ref={container} />
       </span>
     );
-  },
+  }
 );

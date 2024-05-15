@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Landing from "./pages/Landing/Landing";
 import Events from "./pages/Events/Events";
 import Footer from "./Components/Footer/Footer";
+import { signal } from "@preact/signals-react";
 
 const Layout = () => (
     <>
