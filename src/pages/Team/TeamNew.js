@@ -14,7 +14,7 @@ function TeamNew() {
         <div
           className={`md:text-7xl text-5xl text-gray-200 bg-clip-text text-center font-extrabold md:mb-10 mb-5 pb-2 md:pt-20 mt-10`}
         >
-          <DecoderText text="OUT TEAM" start={aboutInView} />
+          <DecoderText text="OUR TEAM" start={aboutInView} />
         </div>
       </div>
 
